@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-practical"
+version = "1.0.0"
+description = "Generic ML practical exam code templates"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+include = ["ml_practical*"]
